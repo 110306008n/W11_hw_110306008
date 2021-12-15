@@ -1,0 +1,91 @@
+.lab1{
+    border:5px solid;
+    border-color: rgb(224, 129, 129);
+    color:rgb(219, 61, 61);
+    background-color: rgb(39, 39, 61);
+    position: relative;
+    left: 150px;
+}
+.lab1p{
+    
+}
+.lab2{
+    border: 3px solid;
+    border-color: rgb(60, 60, 134);
+    position: absolute;
+    right: 150px;
+    
+}
+.lab2p{
+    
+}
+.font_title{
+    color: red;
+    font-size: large;
+    font-style: italic;
+    
+}
+.font_subtitle font_title{
+    color: inherit;
+}
+.font_text{
+    color: blue;
+    font-size: small;
+    font-style: oblique;
+    background-color: lightblue;
+    }
+
+    span{
+        color: black;
+        border: 1px solid rgb(223, 226, 31);
+    }
+    li em{
+        text-decoration: line-through;
+    }\\
+    h1, em{
+        text-decoration: underline;
+    }
+    .fontStyle1{
+        color: rgb(45, 141, 141);
+        font-style: italic;
+        font-size: x-large;
+    }
+    .fontStyle2{
+        color: rgb(24, 253, 55);
+        font-style: normal;
+        font-weight: bolder;
+    }
+    .fontStyle3{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .fontStyle4{
+        font-weight: bolder;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .extra span {
+        color: inherit;
+    }
+    .lab3{
+        background-color: aquamarine;
+        position:relative;
+        left: 50%;
+    }
+    .img{
+        background-image: url(cat1.jfif);
+        background-repeat: repeat;
+        z-index: 1;
+        border: yellow solid 5px;
+    }
+    .img2{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        right: 50px;
+        bottom: 50px;
+        z-index: 2;
+        border: green solid 5px;
+    }
+    .sec{
+        background-color: rgba(0, 0, 255, 0.432);
+    }
