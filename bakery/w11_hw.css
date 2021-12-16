@@ -68,6 +68,8 @@
     }
     .lab3{
         background-color: aquamarine;
+        border:5px solid;
+        border-color: rgb(116, 85, 255);
         position:relative;
         left: 50%;
     }
